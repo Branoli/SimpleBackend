@@ -14,7 +14,7 @@ services:
 
   api:
     build: .
-    command: invoke start_api
+    command: invoke start-api
     environment:
       - MONGO=mongo
     volumes:

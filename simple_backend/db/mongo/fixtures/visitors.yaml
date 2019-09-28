@@ -1,0 +1,12 @@
+- name: Ваня Петров
+  date: 'datetime::2018-01-20T00:00:00.000'
+- name: Павел Сидорович
+  date: 'datetime::2018-01-20T00:00:00.000'
+- name: Максим Коордитер
+  date: 'datetime::2018-01-20T00:00:00.000'
+- name: Антон Ноут
+  date: 'datetime::2018-01-20T00:00:00.000'
+- name: Андрей Лезвие
+  date: 'datetime::2018-01-20T00:00:00.000'
+- name: not authorized
+  date: 'datetime::2018-01-20T00:00:00.000'

@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+invoke = "*"
+aiohttp = "*"
+uvloop = "*"
+pymongo = "*"
+motor = "*"
+asyncio = "*"
+pathlib = "*"
+pyyaml = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-flake8 = "*"
+pytest-aiohttp = "*"
+isort = "*"
+pytest-isort = "*"
+
+[requires]
+python_version = "3.6"

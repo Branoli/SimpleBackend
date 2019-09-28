@@ -6,9 +6,6 @@ from simple_backend.db.mongo.mongo import Mongo
 class Visitors(Mongo):
     collection_name = 'visitors'
 
-    def __init__(self, host, port, db_name, **kwargs):
-        super().__init__(host, port, db_name, **kwargs)
-
     @classmethod
     async def get(cls, limit=5000, **kwargs):
         return await cls.collection.find(kwargs).to_list(length=limit)
